@@ -1,0 +1,171 @@
+.diffCategories {
+    margin: 0px 30px;
+}
+
+.marron {
+    height: 23vh;
+    background-color: rgb(63, 1, 1);
+    margin: 12px 0px;
+    padding: 19PX 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.marque {
+    position: relative;
+    top: -10px;
+    background-color: rgb(243, 218, 209);
+    font-size: 23px;
+    color: rgb(5, 83, 83);
+    font-weight: 600;
+    font-family: fantasy;
+    letter-spacing: 0.04em;
+    word-spacing: 9px;
+}
+
+.sponsers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sponsers img {
+    height: 35px;
+    /* position: relative;
+    top: 53px;
+    left: 20px; */
+}
+
+.sponimg {
+    border-radius: 890px;
+    background-color: aliceblue;
+    width: 8vw;
+    border: solid rgb(253, 253, 87) 3px;
+    height: 16vh;
+}
+
+.a img {
+    height: 99px;
+    position: relative;
+    left: 12px;
+    top: 9px;
+}
+
+.b img {
+    height: 114px;
+    position: relative;
+    left: 5px;
+    top: 12px;
+}
+
+.c img {
+    height: 86px;
+    position: relative;
+    left: 17px;
+    top: 11px;
+}
+
+.d img {
+    height: 109px;
+    position: relative;
+    left: 5px;
+}
+
+.e img {
+    height: 94px;
+    position: relative;
+    left: 14px;
+    top: 10px;
+}
+
+.f img {
+    height: 94px;
+    position: relative;
+    left: 14px;
+    top: 10px;
+}
+
+.g img {
+    height: 94px;
+    position: relative;
+    left: 14px;
+    top: 10px;
+}
+.deof{
+    height: 26vh;
+}
+.dealsnoffer{
+   margin: 20px 0px;
+   font-size: 53px;
+   text-align: center;
+   background-color: rgb(243, 39, 243);
+   text-shadow: 22px 41px 32px 43px rgb(197, 201, 201);
+   animation: dealsnoffer 2s 1s infinite ease-in-out ;
+   color: white;
+}
+@keyframes dealsnoffer {
+    from{
+        font-size: 53px;
+    }
+    to{
+        font-size: 87px;
+    }
+}
+
+.filter{
+    height: 100vh;
+
+}
+.productFilters{
+    display: grid;
+    /* grid-template-rows:repeat(4, auto) ; */
+    grid-template-columns: 380px  auto 380px;
+    grid-template-rows: 330px 330px 330px 330px ;
+}
+
+
+.products{
+    border: none ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(201, 198, 198);
+    margin: 40px;
+    
+}
+.proabout{
+    margin: 10px;
+    line-height: 28px;
+    color: rgb(5, 14, 95);
+    
+}
+.para{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.off{
+    font-size: 15px;
+    font-family: cursive;
+    /* word-spacing:-0.29em; */
+    background-color: red;
+    padding: 6px;
+font-weight: 600;
+    margin: 0px 10px 0px 0px;
+    color: white;
+
+}
+.rightoff{
+    font-size: 18px;
+    color: maroon;
+    font-weight: 500;
+}
+
+
+#brands{
+margin-top: 20em;
+}

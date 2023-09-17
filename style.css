@@ -1,0 +1,868 @@
+* {
+    /* color: #000; */
+    /* background-color: #000; */
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* NAVIGATION BAR */
+header {
+    z-index: 3;
+    position: sticky;
+    background-image: linear-gradient(rgb(253, 255, 255), rgb(203, 203, 227));
+    top: 3px;
+
+}
+
+.navBar {
+    margin: 10px 0px 20px 0px;
+    align-items: center;
+    display: flex;
+    height: 14vh;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/* NAVIGATION ITEMS */
+.list {
+    cursor: pointer;
+    box-shadow: 1px 1px 1.2px 0.2px grey;
+    width: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 80px;
+    font-family: fantasy;
+    margin: 0px 20px;
+    color: #000;
+    font-weight: 340;
+    font-size: 24px;
+    position: relative;
+    bottom: 1px;
+    word-spacing: 0.1px;
+
+}
+
+.list:hover {
+    font-weight: 340;
+    background-color: #dcd5d5;
+    border: none;
+    text-shadow: 3px 2px 24px rgb(246, 249, 248);
+    box-shadow: -2px -2px 2px rgb(90, 1, 11);
+    color: rgb(1, 22, 86);
+    padding: 11px 19px;
+    border-radius: 30px;
+}
+
+.list img {
+    /* scale: 0.2; */
+    height: 30px;
+}
+
+/* NAV IMAGES */
+.imag {
+    display: flex;
+}
+
+.dash {
+    height: 50px;
+    margin: 0px 90px;
+    position: relative;
+    top: 8px;
+}
+
+.logo {
+    /* height: 60px; */
+    scale: 0.85;
+    position: relative;
+    top: 2px;
+}
+
+hr {
+    margin: 0px 0px;
+
+}
+
+
+
+/* DESIGNING THE BLUE DESIGN */
+.blue {
+    z-index: 4;
+    background-color: teal;
+    border: none;
+    box-shadow: 20px 15px 14px 3px skyblue;
+    height: 100px;
+    width: 70vw;
+}
+
+.one {
+    position: relative;
+    border-radius: 90px 0px 0px 90px;
+    top: -39px;
+    /* right: -80px; */
+    float: right;
+
+}
+
+.two {
+    border-radius: 0px 90px 90px 0px;
+    position: relative;
+    left: -49px;
+}
+
+/* different categories */
+.diffCategories {
+    margin: 100px 20px 20px 20px;
+    box-sizing: border-box;
+    /* background-color: #000; */
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categories {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 12%;
+}
+
+/* CATEGORIES */
+.box {
+    border: 1.4px solid rgb(26, 1, 1);
+    border-radius: 40px;
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 12px 10px 13px 7px #000;
+}
+
+/* categories content */
+.box span {
+    background-color: #d7d3d3;
+    color: #000;
+    font-weight: 900;
+    padding: 7px 17px;
+    display: flex;
+    opacity: 0.9;
+    margin: 11px 0px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    word-spacing: 1px;
+    border-radius: 30px;
+    width: 219px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.box span:hover {
+    font-size: 19px;
+    color: maroon;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box img {
+    height: 200PX;
+    width: 260PX;
+    border-radius: 30px;
+}
+
+/* TIME STAMP */
+.timestamp {
+    margin: 21px 0px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(241, 239, 239));
+}
+
+.time {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 30px 0px;
+    height: 4vh;
+}
+
+.time img {
+    height: 100px;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.time p {
+    /* text-decoration: overline wavy rgb(202, 72, 202); */
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 37px;
+    text-shadow: 2px 3px rgb(243, 211, 233);
+    letter-spacing: 0.04em;
+    word-spacing: 0.3em;
+    font-weight: 700;
+}
+
+.time span {
+    font-size: 26px;
+    font-family: 'Yatra One', cursive;
+    word-spacing: 8px;
+
+    /* width: 15vw; */
+}
+
+/* DISCOUNT SECTION */
+.discount {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(rgb(255, 195, 84), rgb(220, 62, 4));
+    padding: 12px;
+    height: 50vh;
+    /* gap: 100px; */
+}
+
+.rightarrow {
+    /* scale: 1; */
+    filter: invert(100%);
+    border-radius: 100px;
+    /* height: 10px; */
+    background-color: rgb(8, 8, 8);
+    padding: 8px;
+    position: relative;
+    left: 40px;
+    bottom: 11px;
+
+}
+
+.discountImg {
+    animation-name: discountDivImg;
+    animation-duration: 4s;
+    /* width: 30vw; */
+    padding: 5px;
+    margin: 0px 80px;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    position: relative;
+    left: -30px;
+    animation-direction: normal;
+}
+
+@keyframes discountDivImg {
+    from {
+        scale: 0.6;
+        left: -31px;
+    }
+
+    to {
+        box-shadow: 10px 10px 100px 7px rgb(95, 1, 1);
+        scale: 1.2;
+        left: 50px;
+    }
+}
+
+/* DESIGNING DISCOUNT DIV CONTENT  */
+.discountDiv {
+    width: 48vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+
+}
+
+.discountDiv h1 {
+    color: rgb(41, 1, 9);
+    font-size: 60px;
+    animation-name: discountDiv;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease;
+    animation-delay: 0.2s;
+    text-shadow: #fff 3px 4px;
+    animation-direction: normal;
+}
+
+@keyframes discountDiv {
+    from {
+        font-weight: 600;
+        font-size: 66px;
+    }
+
+
+    to {
+        font-weight: 800;
+        font-size: 90px;
+    }
+}
+
+.offer {
+    font-size: 30px;
+    color: #fff;
+    animation-name: offer;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease;
+    animation-delay: 0.2s;
+    animation-direction: normal;
+    font-family: 'Concert One', cursive;
+}
+
+@keyframes offer {
+    from {
+        margin: 3px 0px 2px 0px;
+        font-size: 30px;
+    }
+
+    to {
+        margin: 9px 0px 0px 0px;
+        font-size: 15px;
+    }
+}
+
+.discountDiv span {
+    z-index: 0.1;
+    margin: 25px 0px 0px 0px;
+    border-radius: 70px;
+    color: rgb(243, 242, 241);
+    font-size: 38px;
+    background-color: transparent;
+    width: 400px;
+    box-shadow: 3px 1px 12px 2px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    font-family: 'Concert One', cursive;
+    font-weight: 600;
+}
+
+/* DISCOUNT DIV CONTENT QUOTE */
+.quote {
+    font-size: 43px;
+    margin: 29px 0px;
+    font-family: 'Vina Sans', cursive;
+    color: #360101;
+    font-weight: 500;
+    /* padding: 7px 90px; */
+    text-decoration: double underline teal 2.6px;
+    text-shadow: 0.2px 0.5px 1px #f5f3f3;
+}
+
+.discountDiv img {
+    scale: 0.9;
+    position: relative;
+    top: 4px;
+}
+
+/* Highlight div */
+.highlight {
+    background-color: rgb(249, 220, 242);
+    height: 17px;
+}
+
+
+.hrafterdiscount {
+    margin: 20px 0px;
+}
+
+main {
+    height: 600px;
+    margin: 80px 0px;
+}
+
+/* DEALS */
+
+/* #deals {} */
+
+.deals {
+    margin: auto;
+    border-radius: 50px;
+    background-color: #000;
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 4.8vh;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1em;
+    width: 90vw;
+    align-items: center;
+}
+
+.threestep {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    background-color: rgb(90, 2, 45);
+    padding: 9px 29px;
+    border-radius: 30px;
+    width: 22vw;
+    height: 11vh;
+    box-shadow: -5px 5px 5px 2px rgb(255, 243, 106);
+    color: #fff;
+    /* justify-content: space-evenly; */
+    gap: 67px;
+
+}
+
+.stepimg {
+    scale: 0.09;
+    width: 3vw;
+}
+
+.step h3 {
+    font-size: 22px;
+}
+
+.step span {
+    font-size: 19px;
+}
+
+/* FAVOURITES */
+.favourites {
+    background-image: linear-gradient(lightcoral, skyblue);
+    height: 60pc;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.favourites marquee {
+
+    position: relative;
+    top: -23px;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    word-spacing: 12px;
+    color: #360101;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 5vh;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+
+.favourites h1 {
+    text-shadow: 3px 5px wheat;
+    /* font-size:84px; */
+    animation: favh 0.7s 0.9s infinite ease-in-out;
+    margin: 0px;
+}
+
+@keyframes favh {
+    from {
+        text-shadow: 1px 2px wheat;
+        /* margin: 30px 0px; */
+        font-size: 94px;
+    }
+
+    to {
+        text-shadow: 3px 5px wheat;
+        /* margin: 40px 0px; */
+        font-size: 99px;
+    }
+}
+
+.favCat {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont {
+    /* background-color: #013627; */
+    height: 35vh;
+    letter-spacing: 0.06em;
+    display: flex;
+    flex-basis: 26%;
+    border-radius: 12px;
+    align-items: self-start;
+    padding: 30px;
+    justify-content: flex-end;
+    font-family: 'Luckiest Guy', cursive;
+    flex-direction: column;
+    color: #d7d3d3;
+    font-size: 29px;
+    width: 19vw;
+    margin: 40px 10px;
+}
+
+.cont p {
+    text-decoration-color: peru;
+    text-decoration: double underline;
+}
+
+.i {
+
+    /* linear-gradient(45deg, black, transparent), */
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), transparent), url(img/sarrrre.jpeg);
+}
+
+.ii {
+
+    background-image: linear-gradient(45deg, black, transparent), url(img/shirr.jpeg);
+}
+
+.iii {
+    background-image: linear-gradient(45deg, black, transparent), url(img/ssoes.jpeg);
+}
+
+.iv {
+    background-image: linear-gradient(45deg, black, transparent), url(./img/perfume.jpeg);
+}
+
+.v {
+    background-image: linear-gradient(45deg, black, transparent), url(img/kurts.jpeg);
+}
+
+.vi {
+    background-image: linear-gradient(45deg, black, transparent), url(img/sandles.jpeg);
+}
+
+footer {
+    height: 20vh;
+    margin: 100px;
+}
+
+/* search bar */
+#searchText {
+    /* width: 12vw; */
+    height: 8vh;
+    display: flex;
+    position: absolute;
+    display: none;
+    top: 11px;
+    cursor: pointer;
+    border: none;
+}
+
+#searchText input {
+    border-radius: 10px;
+    padding: 6px;
+    width: 11vw;
+    height: 7vh;
+    font-size: 17px;
+}
+
+#searchText img {
+    position: absolute;
+    top: 14px;
+    right: 22px;
+    border: none;
+    height: 32px;
+    background-color: transparent;
+}
+@media screen and (max-width:400px) {
+    body {
+        width: 100vw;
+    }
+
+    #header {
+        width: 100vw;
+    }
+
+    .navBar {
+        height: 10vh;
+        width: 100vw;
+        margin: 0px 2px;
+        justify-content: space-around;
+
+
+        /* gap: -410px; */
+    }
+
+    .imag {
+        scale: 0.2;
+        position: relative;
+        left: -40px;
+    }
+
+    ul {
+        position: relative;
+        left: -140px;
+        margin: 0px;
+    }
+
+    .list {
+
+        font-size: 7px;
+        /* width:30px; */
+        justify-content: space-evenly;
+        padding: 5px;
+        margin: 0px 6px;
+    }
+
+    #searchBar img {
+
+        height: 11px;
+        width: 11px;
+    }
+
+    .blue {
+        height: 12vh;
+        display: none;
+        /* width: 40vw; */
+    }
+
+    .diffCategories {
+        flex-wrap: wrap;
+        margin: 40px 0px;
+    }
+
+    .categories {
+        margin: 10px;
+        justify-content: center;
+        flex-basis: 7%;
+    }
+
+    .box {
+        width: 150px;
+        height: 130px;
+        margin: 4px;
+        border-radius: 30px;
+        box-shadow: 6px 5px 6px 3px #000;
+    }
+
+    .box img {
+        border-radius: 30px;
+        height: 80PX;
+        width: 130PX;
+        border-radius: 30px;
+    }
+
+    .box span {
+        font-weight: 900;
+        padding: 3px 8px;
+        margin: 3px auto;
+        font-size: 10px;
+        width: 109px;
+
+    }
+
+    .timestamp {
+        margin: 40px 0px;
+
+    }
+
+    .time {
+        margin: 7px 0px;
+        padding: 15px 0px;
+        height: 23vh;
+        flex-direction: column;
+    }
+
+    .time img {
+        height: 80px;
+        width: 200px;
+        line-height: 32px;
+    }
+
+    .time p {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    .time span {
+        font-size: 18px;
+        font-family: 'Yatra One', cursive;
+        word-spacing: 8px;
+        /* width: 15vw; */
+    }
+
+    .discount {
+        padding: 8px;
+        width: 100vw;
+        height: 17vh;
+        justify-content: space-evenly
+    }
+
+    .rightarrow {
+        position: relative;
+        left: -110px;
+        top: 0px;
+        scale: 0.7;
+    }
+
+    .discountImg {
+        height: 70px;
+        top: -30px;
+        margin: 0px 8px;
+        /* margin: -20px; */
+    }
+
+    @keyframes discountDivImg {
+        from {
+            scale: 0.02;
+            left: -31px;
+            top: 0px;
+        }
+
+        to {
+            top: -66px;
+            box-shadow: 10px 10px 100px 7px rgb(95, 1, 1);
+            scale: 0.46;
+            left: -10px;
+        }
+    }
+
+    .discountDiv {
+position: relative;
+left: -100px;
+line-height: 19px;
+}
+
+    .discountDiv h1 {
+        font-size: 20px;
+        position: relative;
+        left: 45px;
+    }
+
+    @keyframes discountDiv {
+        from {
+width: 50vw;
+            font-weight: 600;
+            font-size: 10px;
+        }
+
+
+        to {
+            font-weight: 800;
+            font-size: 28px;
+            width: 60vw;
+        }
+    }
+
+    .offer {
+        font-size: 14px;
+    }
+
+    @keyframes offer {
+        from {
+            margin: 2px 0px 1px 0px;
+            font-size: 14px;
+        }
+
+        to {
+            margin: 4px 0px 0px 0px;
+            font-size: 9px;
+        }
+    }
+
+    .discountDiv span {
+        margin: 10px 0px 0px 0px;
+        font-size: 13px;
+        width: 20vw;
+        display: flex;
+        justify-content: space-between;
+      line-height: 9px;
+        padding: 0px 20px;
+        height: 34px;
+    }
+
+    /* DISCOUNT DIV CONTENT QUOTE */
+    .quote {
+        font-size: 15px;
+        margin: 4px;
+        font-weight: 600;
+        /* padding: 7px 90px; */
+    }
+
+    .discountDiv img {
+        scale: 0.28;
+        position: relative;
+        top: 1px;
+        position: relative;
+        left: -40px;
+    }
+ #deals{
+    margin: 0px;
+ }
+    .deals{
+        width: 74vw;
+        font-size: 17px;
+
+    }
+    .threestep{
+        width: 90vw;
+        margin: 20px 10px;
+    }
+    .stepimg{
+        scale: 0.05;
+    }
+    .step span{
+        font-size: 11px;
+    }
+    .step h3{
+        font-size: 14px;
+    }
+    .step{
+        padding: 5px 10px;
+        width: 29vw;
+        gap: 28px;
+        height: 8vh;
+        margin: 10px;
+    }
+
+    .favourites{
+
+        margin-top: 70px;
+    }
+.favourites h1{
+font-size: 24px;
+}
+@keyframes favh {
+    from {
+        text-shadow: 1px 2px wheat;
+        /* margin: 30px 0px; */
+        font-size: 24px;
+    }
+
+    to {
+        text-shadow: 3px 5px wheat;
+        /* margin: 40px 0px; */
+        font-size: 39px;
+    }
+}
+}

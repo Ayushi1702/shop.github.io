@@ -1,0 +1,54 @@
+.wsponsers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.wsponsers img{
+    height: 35px;
+    /* position: relative;
+    top: 53px;
+    left: 20px; */
+}
+.wa img{
+    height: 90px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.wb img{
+    height: 97px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.wc img{
+    height: 101px;
+    position: relative;
+    left: 10px;
+    top: 8px;
+}
+.wd img{
+    height: 109px;
+    position: relative;
+    left: 5.8px;
+    top: 4px;
+}
+.we img{
+    height: 107px;
+    position: relative;
+    left: 7px;
+    top: 8px;
+}
+.wf img{
+    height: 107px;
+    position: relative;
+    left: 5px;
+    top: 8px;
+}
+.wg img{
+    height: 107px;
+    position: relative;
+    left: 6.8px;
+    top: 5px;
+}
