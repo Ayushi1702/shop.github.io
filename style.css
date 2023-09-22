@@ -573,7 +573,7 @@ footer {
     display: flex;
     position: absolute;
     display: none;
-   top: 33px;
+   top: 25px;
     cursor: pointer;
     border: none;
 }
