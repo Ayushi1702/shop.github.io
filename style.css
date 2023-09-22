@@ -569,7 +569,7 @@ footer {
 /* search bar */
 #searchText {
     /* width: 12vw; */
-    height: 8vh;
+    height: 6vh;
     display: flex;
     position: absolute;
     display: none;
@@ -581,15 +581,15 @@ footer {
 #searchText input {
     border-radius: 10px;
     padding: 6px;
-    width: 11vw;
+    width: 9vw;
     height: 7vh;
     font-size: 17px;
 }
 
 #searchText img {
     position: absolute;
-    top: 14px;
-    right: 22px;
+    top: 19px;
+    right: 28px;
     border: none;
     height: 32px;
     background-color: transparent;
