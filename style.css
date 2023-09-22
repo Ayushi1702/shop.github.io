@@ -573,16 +573,16 @@ footer {
     display: flex;
     position: absolute;
     display: none;
-    top: 11px;
+   top: 33px;
     cursor: pointer;
     border: none;
 }
 
 #searchText input {
-    border-radius: 10px;
+       border-radius: 10px;
     padding: 6px;
-    width: 9vw;
-    height: 7vh;
+    width: 11vw;
+    height: 5vh;
     font-size: 17px;
 }
 
